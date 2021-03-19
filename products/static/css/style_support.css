@@ -1,0 +1,200 @@
+body {
+    background-size: 100%;
+}
+
+header {
+    position: absolute;
+}
+
+.container {
+    position: fixed;
+    background-color: rgba(255,255,255,.9);
+    width: 98.7%;
+    height: 11%;
+    z-index: 5;
+}
+
+.site-branding {
+    position: absolute;
+    font-size: 17px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font: bold;
+    padding-left: 4%;
+    text-decoration: none;
+} a {
+    text-decoration: none;
+    color: black;
+}
+
+.site-branding a:hover {
+    color: darkblue;
+}
+
+#site-navigation {
+    align-items: center;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#menu-nav {
+    align-items: center;
+    flex-wrap: wrap;
+    flex-direction: column;
+    font-size: 15px;
+    padding-left: 14%;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.top {
+    width: 400px;
+    position: absolute;
+}
+
+.top li:hover {
+    background-color: white;
+}
+
+.top div a:hover {
+    font-weight: 700;
+}
+
+.top li {
+    align-items: center;
+    list-style: none;
+    display: inline-block;
+    padding-top: 4.5%;
+    padding-bottom: 4%;
+    padding-left: 4%;
+    padding-right: 4%;
+}
+
+.top li a{
+    align-items: center;
+    text-decoration: none;
+    color: black;
+}
+
+#botao:hover {
+    background-color: transparent;
+}
+
+#shop-nav {
+    padding-top: 0%;
+    padding-bottom: 0.6%;
+    padding-left: 60%;
+}
+
+#btn-basket {
+    position: absolute;
+    margin-left: 20px;
+    border-style: none;
+    margin-top: -1.3%;
+    width: 25px;
+    height: 25px;
+    background-color: transparent;
+    background-image: url('../media/carrinho.png');
+    background-size: cover;
+    cursor: pointer;
+    outline: none;
+}
+
+#shop-now {
+    position: absolute;
+    border-width: medium;
+    border-color: black;
+    background-image: none;
+    padding-top: 13px;
+    padding-bottom: 13px;
+    padding-left: 30px;
+    padding-right: 30px;
+    top: 75%;
+    left: 40%;
+    outline: none;
+    background-color: rgba(209, 209, 209, 0.7);
+} #shop-now:hover {
+    background-color: white;
+    cursor: pointer;
+}
+
+footer {
+    color: rgba(0, 0, 0, .4);
+    font-weight: 300;
+    padding-top: 128%;
+}
+
+footer div ul {
+    position: absolute;
+    padding-top: 1%;
+    padding-left: 3%;
+}
+
+footer div ul li {
+    font-size: small;
+    max-width: max-content;
+    flex-direction: column;
+    padding-top: 0.1%;
+    padding-bottom: 5%;
+    opacity: 60%;
+    display: flex;
+} :hover {
+    opacity: 100%;
+}
+
+h5 {
+    font-size: 12px;
+    font-style: normal;
+    padding-left: 3%;
+    padding-top: 13%;
+    padding-bottom: 1.5%;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.pay {
+    position: absolute;
+    width: 30%;
+    padding-left: 50%;
+} .pay-label {
+    padding-top: 1.6%;
+}
+
+.paypal {
+    position: absolute;
+    margin-left: 20px;
+    border-style: none;
+    margin-top: -1.3%;
+    width: 219px;
+    height: 76px;
+    background-color: transparent;
+    background-image: url('../media/paypal.jpg');
+    background-size: cover;
+    cursor: pointer;
+    outline: none;
+}
+
+.support {
+    position: absolute;
+    left: 0%;
+    top: 20%;
+    width: 100%;
+    height: 60%;
+    align-items: center;
+    text-align: center;
+    background: darkblue;
+    background: -webkit-linear-gradient(to right, blue, darkblue);
+	background: linear-gradient(to right, blue, darkblue);
+}
+
+.support h1 {
+    color: white;
+    text-shadow: 2px 2px black;
+    margin-top: 3%;
+}
+
+.support h3 {
+    margin-top: 5%;
+    color: white;
+}
+
+.support p {
+    color: white;
+}

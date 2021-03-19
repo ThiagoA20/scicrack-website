@@ -1,0 +1,40 @@
+{% extends "base.html" %}
+
+{% block title %}
+<title>Scicrack</title>
+<link href="../static/css/style_home.css" rel="stylesheet">
+{% endblock %}
+
+{% block content %}
+<main>
+    <div>
+        <h1 class="slogan" style="font-weight: bold; font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;">STAY PRODUCTIVE</h1>
+        <p class="slogan2">Let us take you to the next level in scientific development, with the best technological solutions on the market.</p>
+        <div id="shop-center">
+            <a href="{% url 'products:list_products' %}">
+                <button id='shop-now'>SHOP NOW</button>
+            </a>
+        </div>
+    </div>
+    <div>
+        <a id="reagents" href="{% url 'products:list_products' %}">
+            <h1 class="slogan3" style="font-weight: bold; font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;">CONSUMABLES</h1>
+            <p class="slogan4">Explore options for culture media, reagents and extraction kits</p>
+            <img src="../static/media/petri.jpg" id="placa">
+            <h4 class="shop-now-redirect">SHOP NOW</h4>
+            <div class="seta-direita"></div>
+        </a>
+        <a id="equipments" href="{% url 'products:list_products' %}">
+            <h1 class="slogan5" style="font-weight: bold; font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;">EQUIPMENTS</h1>
+            <p class="slogan6">Our selection of microscopes, centrifuges, incubators, glassware, among other laboratory equipment.</p>
+            <img src="../static/media/lab_equipment.jpg" id="centrifuga">
+            <h4 class="shop-now-redirect2">SHOP NOW</h4>
+            <div class="seta-direita2"></div>
+        </a>
+    </div>
+    <div id="list-trending">
+        <h4 class="checkout">CHECKOUT OUR</h4>
+        <h4 class="trending">HOTTEST TRENDING ITEMS</h4>
+    </div>
+</main>
+{% endblock %}

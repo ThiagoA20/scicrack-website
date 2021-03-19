@@ -1,0 +1,108 @@
+{% load static %}
+
+<!DOCTYPE html>
+<html>
+
+<head>
+{% block title %}
+{% endblock %}
+</head>
+
+<body>
+
+<header>
+    <div class="container">
+        <div class="site-branding">
+            <h1>
+                <a id='add-link' href="{% url 'products:home' %}">Scicrack</a>
+            </h1>
+        </div>
+        <nav id="site-navigation" class="main-navigation">
+            <div id="menu-nav">
+                <ul class="top">
+                    <li>
+                        <div>
+                            <a id='add-link' href="{% url 'products:list_products' %}">EQUIPMENT</a>
+                        </div>
+                    </li>
+                    <li>
+                        <div>
+                            <a id='add-link' href="{% url 'products:list_products' %}">CONSUMABLES</a>
+                        </div>
+                    </li>
+                    <li>
+                        <div>
+                            <a id='add-link' href="{% url 'products:support' %}">SUPPORT</a>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+            <div id="shop-nav">
+                <ul class="top">
+                    <li>
+                        <div>
+                            <a id='add-link' href="{% url 'products:login' %}">Login/Register</a>
+                        </div>
+                    </li>
+                    <li>
+                        <div>
+                            <a id='add-link' href="#">Wishlist</a>
+                        </div>
+                    </li>
+                    <li id='botao'>
+                        <a href="{% url 'products:cart' %}">
+                            <button id='btn-basket'></button>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+    </div>
+</header>
+{% block content %}
+{% endblock %}
+<footer>
+    <hr>
+    <div>
+        <div class="pay">
+            <h5 class="pay-label">PAY SECURELY WITH PAYPAL</h5>
+            <button class="paypal"></button>
+        </div>
+        <ul>
+            <div>
+                <li>
+                    <a href="{% url 'products:about' %}">ABOUT</a>
+                </li>
+            </div>
+            <div>
+                <li>
+                    <a href="{% url 'products:faq' %}">FAQ</a>
+                </li>
+            </div>
+            <div>
+                <li>
+                    <a href="{% url 'products:privacy' %}">PRIVACY POLICY</a>
+                </li>
+            </div>
+            <div>
+                <li>
+                    <a href="{% url 'products:shipping' %}">SHIPPING</a>
+                </li>
+            </div>
+            <div>
+                <li>
+                    <a href="{% url 'products:returns' %}">RETURNS</a>
+                </li>
+            </div>
+            <div>
+                <li>
+                    <a href="{% url 'products:terms' %}">TERMS OF USE</a>
+                </li>
+            </div>
+        </ul>
+        <h5>© 2021 SCICRACK ALL RIGHTS RESERVED</h5>
+    </div>
+</footer>
+</body>
+
+</html>

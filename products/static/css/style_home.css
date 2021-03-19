@@ -1,0 +1,351 @@
+body {
+    background-size: 100%;
+    background-image: url('../media/banner.jpg'); 
+    background-repeat: no-repeat;
+}
+
+header {
+    position: absolute;
+}
+
+.container {
+    position: fixed;
+    background-color: rgba(255,255,255,.9);
+    width: 98.7%;
+    height: 11%;
+    z-index: 5;
+}
+
+.site-branding {
+    position: absolute;
+    font-size: 17px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font: bold;
+    padding-left: 4%;
+    text-decoration: none;
+} a {
+    text-decoration: none;
+    color: black;
+}
+
+.site-branding a:hover {
+    color: darkblue;
+}
+
+#site-navigation {
+    align-items: center;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#menu-nav {
+    align-items: center;
+    flex-wrap: wrap;
+    flex-direction: column;
+    font-size: 15px;
+    padding-left: 14%;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.top {
+    width: 400px;
+    position: absolute;
+}
+
+.top li:hover {
+    background-color: white;
+}
+
+.top div a:hover {
+    font-weight: 700;
+}
+
+.top li {
+    align-items: center;
+    list-style: none;
+    display: inline-block;
+    padding-top: 4.5%;
+    padding-bottom: 4%;
+    padding-left: 4%;
+    padding-right: 4%;
+}
+
+.top li a{
+    align-items: center;
+    text-decoration: none;
+    color: black;
+}
+
+#botao:hover {
+    background-color: transparent;
+}
+
+#shop-nav {
+    padding-top: 0%;
+    padding-bottom: 0.6%;
+    padding-left: 60%;
+}
+
+#btn-basket {
+    position: absolute;
+    margin-left: 20px;
+    border-style: none;
+    margin-top: -1.3%;
+    width: 25px;
+    height: 25px;
+    background-color: transparent;
+    background-image: url('../media/carrinho.png');
+    background-size: cover;
+    cursor: pointer;
+    outline: none;
+}
+
+#shop-now {
+    position: absolute;
+    border-width: medium;
+    border-color: black;
+    background-image: none;
+    padding-top: 13px;
+    padding-bottom: 13px;
+    padding-left: 30px;
+    padding-right: 30px;
+    top: 75%;
+    left: 40%;
+    outline: none;
+    background-color: rgba(209, 209, 209, 0.7);
+} #shop-now:hover {
+    background-color: white;
+    cursor: pointer;
+}
+
+#shop-center {
+    padding-left: 25%;
+}
+
+.slogan {
+    text-shadow: 2px 2px white;
+    position: absolute;
+    top: 13%;
+    font-size: 50px;
+    left: 15%;
+}
+
+.slogan2 {
+    text-shadow: 1px 1px black;
+    background: darkblue;
+    background: -webkit-linear-gradient(to right, white, gray);
+	background: linear-gradient(to right, gray, white);
+    border-radius: 10px;
+    position: absolute;
+    font-size: 18px;
+    left: 14%;
+    top: 43%;
+    width: 75%;
+    font-weight: 500;
+    text-align: center;
+}
+
+main {
+    height: 35%;
+    width: 30%;
+    position: absolute;
+    top: 28%;
+    left: 30%;
+    padding: 5%;
+}
+
+footer {
+    color: rgba(0, 0, 0, .4);
+    font-weight: 300;
+    padding-top: 128%;
+}
+
+footer div ul {
+    position: absolute;
+    padding-top: 1%;
+    padding-left: 3%;
+}
+
+footer div ul li {
+    font-size: small;
+    max-width: max-content;
+    flex-direction: column;
+    padding-top: 0.1%;
+    padding-bottom: 5%;
+    opacity: 60%;
+    display: flex;
+} :hover {
+    opacity: 100%;
+}
+
+h5 {
+    font-size: 12px;
+    font-style: normal;
+    padding-left: 3%;
+    padding-top: 13%;
+    padding-bottom: 1.5%;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.pay {
+    position: absolute;
+    width: 30%;
+    padding-left: 50%;
+} .pay-label {
+    padding-top: 1.6%;
+}
+
+.paypal {
+    position: absolute;
+    margin-left: 20px;
+    border-style: none;
+    margin-top: -1.3%;
+    width: 219px;
+    height: 76px;
+    background-color: transparent;
+    background-image: url('../media/paypal.jpg');
+    background-size: cover;
+    cursor: pointer;
+    outline: none;
+}
+
+#placa {
+    position: absolute;
+    top: 154.7%;
+    right: 50%;
+    width: 125%;
+    z-index: 1;
+}
+
+#centrifuga {
+    position: absolute;
+    top: 154.7%;
+    left: 50%;
+    width: 125%;
+    height: 121.6%;
+    z-index: 1;
+}
+
+.slogan3 {
+    text-shadow: 2px 2px rgb(0, 0, 180);
+    color: white;
+    position: absolute;
+    top: 185%;
+    font-size: 40px;
+    right: 120%;
+    z-index: 2;
+}
+
+.slogan4 {
+    text-shadow: 1px 1px black;
+    background: darkblue;
+    background: -webkit-linear-gradient(to right, white, gray);
+	background: linear-gradient(to right, white, gray);
+    border-radius: 10px;
+    position: absolute;
+    font-size: 18px;
+    right: 115%;
+    top: 207%;
+    width: 55%;
+    font-weight: 500;
+    text-align: center;
+    z-index: 2;
+}
+
+.slogan5 {
+    text-shadow: 2px 2px rgb(0, 0, 180);
+    color: white;
+    position: absolute;
+    top: 185%;
+    font-size: 40px;
+    left: 57%;
+    z-index: 2;
+}
+
+.slogan6 {
+    text-shadow: 1px 1px black;
+    background: darkblue;
+    background: -webkit-linear-gradient(to right, white, gray);
+	background: linear-gradient(to right, white, gray);
+    border-radius: 10px;
+    position: absolute;
+    font-size: 18px;
+    left: 55%;
+    top: 207%;
+    width: 75%;
+    font-weight: 500;
+    text-align: center;
+    z-index: 2;
+}
+
+.shop-now-redirect {
+    position: absolute;
+    top: 250%;
+    z-index: 2;
+    left: 60%;
+}
+
+.seta-direita:before {
+    position: absolute;
+    top: 255.9%;
+    left: 76%;
+    content: "";
+    display: inline-block;
+    vertical-align: middle;
+    margin-right: 10px;
+    width: 0; 
+    height: 0; 
+  
+    border-top: 5px solid transparent;
+    border-bottom: 5px solid transparent;
+    border-left: 5px solid black;
+    z-index: 2;
+}
+
+.shop-now-redirect2 {
+    position: absolute;
+    top: 250%;
+    width: max-content;
+    z-index: 2;
+    right: 153%;
+    color: white;
+}
+
+.seta-direita2:before {
+    position: absolute;
+    top: 255.9%;
+    right: 149%;
+    content: "";
+    display: inline-block;
+    vertical-align: middle;
+    margin-right: 10px;
+    width: 0; 
+    height: 0; 
+  
+    border-top: 5px solid transparent;
+    border-bottom: 5px solid transparent;
+    border-left: 5px solid white;
+    z-index: 2;
+}
+
+#reagents:hover {}
+
+#equipments:hover {}
+
+#list-trending {
+    position: absolute;
+    top: 290%;
+    left: 35%;
+    font-size: 13px;
+}
+
+.checkout {
+    position: relative;
+    padding-left: 40px;
+    font-weight: 100;
+}
+
+.trending {
+    position: relative;
+    top: -10px;
+}
